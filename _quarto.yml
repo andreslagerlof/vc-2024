@@ -3,11 +3,20 @@ project:
 
 website:
   title: "vc-2024"
+  open-graph: true
+  favicon: favicon-16x16.png
   navbar:
-    left:
+    right:
       - href: index.qmd
-        text: Home
+        text: Hem
       - about.qmd
+    logo: fff_logo_50pct.png
+    background: light
+  page-footer: 
+    left: "FFF Vårcup 2024"
+    right: "Sportchefen FFF"
+    border: true
+    background: light
 
 format:
   html:
