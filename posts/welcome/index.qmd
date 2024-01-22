@@ -1,0 +1,76 @@
+---
+title: "Snart börjar vi"
+author: "Andrés"
+image: "arno-smit-sKJ7zSylUao-unsplash.jpg"
+---
+
+![Foto: Arno Smit, Unsplash](arno-smit-sKJ7zSylUao-unsplash.jpg)
+
+Även om vintern rasar för fullt så väntar ljusare tider. Det som lyser upp tillvaron mer än något annat för en fäktare är vetskapen om att Vårcupen står inför dörren. För att hjälpa er med förberedelserna är här lite sammanfattande info.
+
+## Datum
+
+```{r}
+#| label: preparation
+#| echo: false
+#| warning: false
+# Load libraries
+library(tidyverse)
+library(here)
+library(lubridate)
+library(epoxy)
+
+# Read data
+dates <- read_csv(
+  here("assets", "data","dates.csv")
+  )
+```
+
+Här är datumen som du måste rista in i ditt minne (en kalender går också bra för den som vill).
+
+```{epoxy}
+- Deltävling {1:5}, torsdagen {day(dates$date)} {month(dates$date, label = TRUE)}, kl. 19:00
+```
+
+## Tävlingsupplägg
+
+Vårupen är en serietävling med 5 deltävlingar. Man får poäng baserat på placering och resultaten från de 4 bästa deltävlingarna räknas ihop för den slutgiltiga placeringen.
+
+Vi börjar med en pouleomgång, rankingen i den första deltävlingen baseras på slutresultatet från KM. Efter den första omgågnen fortsätter tävlingen med direkteliminering. Fram till kvartsfinalerna är det 10-stötsmatcher som gäller, från och med kvartsfinalen går vi över till 15-stötsmatcher.
+
+## Poäng
+
+Poängsumman från de 4 bästa placeringarna räknas samman och den fäktare med flest poäng vinner. Om flera fäktare har samma poäng vid sammanräkningen avgörs placeringen av bästa placeringen, dvs flest 1:a platser, flest 2:a platser, etc. Om även där lika avgörs placeringarna 1-3 genom omfäktning.
+
+Så här fördelas poängen
+
+**Placering --- Poäng**\
+1 --- 32 poäng\
+2 --- 26 poäng\
+3 --- 21 poäng\
+4 --- 19 poäng\
+5 till 8 --- 14 poäng\
+9 till 16 --- 8 poäng\
+17 till 32 --- 4 poäng
+
+## Regler, mm
+
+-   **Utrustning**: se till att ha fungerande utrusting och reservapen. En värja räcker inte.
+
+-   **Kom i tid**: kommer du efter att tävlingen har startat får du troligen inte delta. Tävlingsledningen beslutar.
+
+-   **Fullfölj** tävlingen: om ni startar måste ni också fullfölja tävlingen till dess att den är slut. Enda undantaget är skada.
+
+-   **Protokoll**: var varsamma med protokoll. Skriv läsligt och smutsa inte ned protokollen.
+
+Som vanligt är det *glädje*, *trygghet* och *gemenskap* som gäller. Är du osäker på FFFs policys så läs på föreningens [hemsida](https://www.xn--fff-fktning-p8a.se/policys/).
+
+## En tillbakablick
+
+Ingen har väl glömt det rafflande slutet i förra årets Vårcup då Louise och CH, efter heroiska insatser, välförtjänt fick ta emot pokalen ur Tors hand! (annars kan ni läsa på [här](https://vc2023.netlify.app/posts/2023-06-06-deltavling-5/?fbclid=IwAR0E9babufvLcGStcbu0-6wURZpslur71fE9IAyimNX8UOw693m8JuN408A))
+
+![Louise och CH tjuter ut sin glädje över att vinna Vårcupen 2023](vinnarna_2023_2.jpg)
+
+Denna pokal som dom båda, på ett systerligt sätt, har turats om att ha hemma i prisskåpet. Inom kort måste dom dock lämna ifrån sig denna klenod, för att återigen ge sig in i jakten på att ytterligare en gång få den tilldelad.
+
+Men, vi vet att det finns många konkurrenter som tränat otaliga timmar för att bli nästa lyckliga fäktare att skriva in sig i fäkthistoriens finrum.
