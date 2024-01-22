@@ -56,7 +56,7 @@ dates <- read_csv(
 ```
 
 ```{epoxy}
-- Deltävling {1:5}, torsdagen {day(dates$date)} {month(dates$date, label = TRUE)}, kl. 19:00
+- Deltävling {1:5}, den {day(dates$date)} {month(dates$date, label = TRUE)}, kl. 19:00
 
 ```
 

@@ -29,7 +29,7 @@ dates <- read_csv(
 Här är datumen som du måste rista in i ditt minne (en kalender går också bra för den som vill).
 
 ```{epoxy}
-- Deltävling {1:5}, torsdagen {day(dates$date)} {month(dates$date, label = TRUE)}, kl. 19:00
+- Deltävling {1:5}, den {day(dates$date)} {month(dates$date, label = TRUE)}, kl. 19:00
 ```
 
 ## Tävlingsupplägg
