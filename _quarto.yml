@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "vc-2024"
+  title: "Vårcupen 2024"
   open-graph: true
   favicon: favicon-16x16.png
   navbar:
