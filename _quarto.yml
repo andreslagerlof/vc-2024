@@ -6,12 +6,12 @@ website:
   open-graph: true
   favicon: favicon-16x16.png
   navbar:
-    right:
+    left:
       - href: index.qmd
-        text: Hem
+        text: Blog
       - about.qmd
     logo: fff_logo_50pct.png
-    background: light
+    background: dark
   page-footer: 
     left: "FFF Vårcup 2024"
     right: "Sportchefen FFF"
@@ -20,7 +20,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: cerulean
     css: styles.css
     toc: true
 

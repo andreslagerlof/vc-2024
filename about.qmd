@@ -2,18 +2,18 @@
 title: "Om Vårcupen 2024"
 image: fff_logo_50pct.png
 about:
-  template: solana
+  template: trestles
 ---
 
-## Välkommen till årets upplaga av  Vårcupen!
+## Välkommen till årets upplaga av Vårcupen!
 
-![Vårcupens åtråvärda pokal!](vc_buckla.jpg){fig-alt="Bild på vårcupens pokal"}
-
-Nu behöver ni inte längre vara ledsna över att KM är slut, nu ska vi vända blickarna mot det nya årets första stora händelse Vårcupen 2024! Det finns få (om ens några) tävlingar i fäktningens universum som kan mäta sig med den här mäktiga tävlingen.
+Nu behöver ni inte längre vara ledsna över att KM är slut. Istället ska vi vända blickarna mot det nya årets första stora händelse -- Vårcupen 2024! Det finns få (om ens några) tävlingar i fäktningens universum som kan mäta sig med den här mäktiga tävlingen.
 
 Som vanligt är det Sportchefen Tor Forsse med hjälp av Andrés Gomez som står som för värdskapet och ni är självfallet välkomna till oss för alla tänkbara frågor.
 
 För såväl gamla som nya deltagare vill tävlingsarrangörerna ta tillfället i akt att inte bara hälsa er hjärtligt välkomna utan också sprida lite matnyttig information om tävlingen för att ni på så vis ska kunna göra det mesta av denna fäktmässiga hödpunkt.
+
+![Vårcupens åtråvärda pokal!](vc_buckla.jpg){fig-alt="Bild på vårcupens pokal"}
 
 ## Tävlingsform
 
@@ -21,7 +21,21 @@ Vårupen är en serietävling med 5 deltävlingar. Man får poäng baserat på p
 
 Vi börjar med en pouleomgång, rankingen i den första deltävlingen baseras på slutresultatet från KM. Efter den första omgågnen fortsätter tävlingen med direkteliminering. Fram till kvartsfinalerna är det 10-stötsmatcher som gäller, från och med kvartsfinalen går vi över till 15-stötsmatcher.
 
-## Datum
+## Regler, mm
+
+-   **Utrustning**: se till att ha fungerande utrusting och reservapen. En värja räcker inte.
+
+-   **Kom i tid**: kommer du efter att tävlingen har startat får du troligen inte delta. Tävlingsledningen beslutar.
+
+-   **Fullfölj** tävlingen: om ni startar måste ni också fullfölja tävlingen till dess att den är slut. Enda undantaget är skada.
+
+-   **Protokoll**: var varsamma med protokoll. Skriv läsligt och smutsa inte ned protokollen.
+
+Som vanligt är det *glädje*, *trygghet* och *gemenskap* som gäller. Är du osäker på FFFs policys så läs på föreningens [hemsida](https://www.xn--fff-fktning-p8a.se/policys/).
+
+## Tid och plats
+
+Alla tävlingar hålls på FFFs fäktsal och tävlingsstart är klockan 19:00. Anmälning kan göras från kl. 18:45
 
 Här har ni tävlingsdatumen:
 
@@ -45,6 +59,12 @@ dates <- read_csv(
 - Deltävling {1:5}, torsdagen {day(dates$date)} {month(dates$date, label = TRUE)}, kl. 19:00
 
 ```
+
+::: callout-important
+## OBS!
+
+Anmälningarna öppnar kl. 18:45 och start är kl. 19:00. Kommer ni sent är det troligt att ni inte får delta
+:::
 
 ## Poängsystem
 
