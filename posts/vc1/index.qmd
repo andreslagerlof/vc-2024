@@ -1,0 +1,109 @@
+---
+title: "Rapport från första deltvävlingen"
+author: "Andrés"
+date: "2024-01-26"
+description: "Utmaningen är större än någonsin när startskottet för Vårcupen 2024 brann av i torsdags."
+image: "grigori-SAF-pokalen-2020_1.jpg"
+execute: 
+  echo: false
+  warning: false
+---
+
+![Full fart i första Vårcupstävlingen](20240125_2.jpg)
+
+"Då kan ni köra!" Med de orden från tävlingsledaren Tor släpptes kaoset löst och 30 ivriga fäktare löpte amok i jakten på ära och berömmelse. I röran kunde man skönja fäktare från när och fjärran, de med meritlistor tjocka som bibieln och de vars meritlistor just öppnats för inskriptioner.
+
+```{r}
+#| label: setup
+
+# Load here package
+library(here)
+
+# Load all libraries
+source(here("libraries_load.R"))
+
+# Load custom functions
+source(here("assets", "functions", "custom_functions.R"))
+
+# Read data
+vc <- read.csv(here("assets", "data", "vc_resultat_2024.csv"))
+
+# Define current competition
+current_comp_name <- "vc_1"
+
+# Define current comp no
+current_comp_no <- parse_number(current_comp_name)
+```
+
+```{r}
+#| label: prep_data
+
+
+# Read results data
+vc <- read.csv(here("assets", 
+                    "data", 
+                    "vc_resultat_2024.csv"))
+
+dat <- vc |> 
+  to_long_format() |> 
+  calc_points()
+
+```
+
+## Pouleomgången
+
+![Lukas och Jonathan, med flera](20240125_lukas-jonte.jpg)
+
+Poule 1 med åtta fäktare, blev en jämn affär där Ian, Lukas och Ernest vann 5 matcher var. Lika många fäktare fanns i poule 2 och även där var kampen mellan Jonathan och Tor hård om poulesegern då ingen förlorat mer än en match var. Här visade också Mathias att hans namn måste tas med i beräkningarna efter att ha försett sig med 5 segrar.
+
+Några kliv längre bort skakade marken när Linus, Elwin och CH gjorde upp om herravläldet i den 3:e poulen. Slutligen var det dock Elwin som slank före sina meddtävlare. Och längst bort operarade Grigori, med kirurgisk precision, till sig en pouelseger framför Francesco och landslagets sensationsman Christopher.
+
+Bland alla tävlande lyste också Neolie och Linnea som frammanade både respekt och beundran hos sina medkombatanter.
+
+![Neolie pressar CH till det yttersta](20240125_neolie.jpg)
+
+## Direktelimineringen
+
+Efter poulfäktningen ställdes fäktarna upp i en ofulltändig T32:a, där Jonathan och Elwin tack vare sin poulefäktning fick stå över. I omgången därefter fick båda fullt att stå emot Holger respektive Georg, men båda lyckades freda sig. 
+
+Francesco fick spela ut hela sitt register för att, med endast en stöts marginal, ta sig förbi den storfäktande Mathias. Linus ställdes mot fjolårsvinnaren CH och lyckades utmanövrera denne.
+
+De båda tränarna Grigori och Ben fick mäta sina krafter i matchen bredvid. Grigoris form från pouleomgången höll i sig vilket gav honom passage till nästa runda. Vedran fick god användning av sin räckvidd och kunde med skydd av den ta sig förbi Tor. Ian satte Christopher på hårda prov som med en stöts fördel kunde pusta ut inför nästa omgång.
+
+Åven i matchen mellan Lukas och Ernest var utgången in i det längsta osäker, men denna gång föll den ut till Lukas favör.
+
+## Kvartsfinaler
+
+I kvartsfinalerna ökade trycket än mer. I den första matchen var det Francescos tur att pröva sin lycka mot landslagsstjärnan Jonte och gjorde bra ifrån sig, men slutligen lyckades Jonathan ändå utgå med seger. 
+
+Vi vet alla att Grigori är svår att stoppa när han väl fått upp ångan, denna fick nu också Linus erfara. Längre kom inte heller Christopher denna kväll när Vedran, som fortfarande var lika lång som tidigare, satt stopp för vidare avancemang. Samma öde gick Lukas till mötes i sitt möte med Elwin.
+
+## Avslutningen
+
+Nu, med pallplatser i sikte, drabbade Jonathan och Grigori samman i den första semifinalmatchen. I denna giganternas kamp stod denna kväll fru fortuna på Grigoris sida som med siffrorna 15-13 var klar till guldfinalen. Med samma siffror kunde Elwin, i den andra semin, göra det samma tack vare en seger mot Vedran.
+
+Elwin som gjort en strålande insats försökte än en gång imponera på publiken i finalen men Grigori lät sig inte bevekas. Resolut tog Grigori istället hand om matchen och efter en stund kunde Grigori belåtet koppla ut som kvällens segrare.
+
+I matchen om tredjeplatsen hade Jonathan hämtat sig och fick avsluta kvällen med en välförtjänt tredjeplats.
+
+![Den fullständiga tablån](tabla.jpg)
+
+## Tabellen
+
+Nu är det dags att kasta sig över deserten, här kan ni detaljstudera tabellen efter den första deltävlingen
+
+```{r}
+#| label: create_current_comp_table
+
+dat |> current_comp_table()
+
+
+```
+
+## Vägen framåt
+
+Med allt detta bakom oss är det hög tid att sia om framtiden. Man kan återigen konstatera att det är två kraftfält som står mot varandra de gamla mot de unga (om ni ursäktar kategorieseringen där Grigori förpassas till "de gamla"). Om Grigori inte skulle ha vunnit i torsdag skulle slagsidan till de ungas fördel vara förkrossande.
+
+Men, vi vet sedan tidigare att det är oklokt att fatta förhastade beslut. Hur många gånger har vi inte sett tvära kast och oväntade fäktare som ritar om kartbilden? Framtiden är allt för oförutsägbar. Det enda vi med säkerhet kan veta är att kampen kommer vara, hård, intensiv och oförutsägbar. Därför måste vi alla med, full energi, återgå till hängiven träning i förhoppning om att själva, en dag få stå där i rampljuset och ta emot åhörarnas öronbdövande jubel.
+
+Träna hårt så ses vi igen den 15:e februari!
