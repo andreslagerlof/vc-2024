@@ -58,4 +58,68 @@ current_comp_table <- function(df) {
                               current_comp_no, ":a deltävlingen"))
 }
 
+# Create womens table -----------------------------------------------------
+
+ladies_table_current <- function(df) {
+  df |> 
+    filter(comp_no %in% c(1:current_comp_no)) |> 
+    filter(gender == "f") |> 
+    na.omit() |> 
+    group_by(name) |> 
+    mutate(sum_points = sum(points)) |>
+    ungroup() |> 
+    select(!c(gender, place, place_char)) |> 
+    pivot_wider(
+      names_from = comp_no, 
+      values_from = points) |> 
+    relocate(sum_points, .after = last_col()) |> 
+    # Add ranking
+    mutate(rank = min_rank(desc(sum_points))) |> 
+    relocate(rank, everything()) |> 
+    rename(
+      "#" = rank,
+      Namn = name,
+      "Totalt" = sum_points) |>
+    gt() |> 
+    tab_spanner(
+      label = "Deltävling nr.",
+      columns = -c("#", Namn, Totalt)) |> 
+    tab_header(
+      title = "Ställningen i damtävlingen", 
+      subtitle = paste0("Efter den ", 
+                        current_comp_no, ":a deltävlingen"))
+}
+
+
+# Totals table ------------------------------------------------------------
+
+totals_table <- function(df) {
+  df |> 
+    filter(comp_no %in% c(1:current_comp_no)) |> 
+    na.omit(sum_points) |> 
+    group_by(name) |> 
+    mutate(sum_points = sum(points)) |>
+    ungroup() |> 
+    arrange(desc(sum_points)) |> 
+    select(!c(gender, place, place_char)) |> 
+    pivot_wider(
+      names_from = comp_no, 
+      values_from = points) |> 
+    relocate(sum_points, .after = last_col()) |> 
+    # Add ranking
+    mutate(rank = min_rank(desc(sum_points))) |> 
+    relocate(rank, everything()) |> 
+    rename(
+      "#" = rank,
+      Namn = name,
+      "Totalt" = sum_points) |>
+    gt() |> 
+    tab_spanner(
+      label = "Deltävling nr.",
+      columns = -c("#", Namn, Totalt)) |> 
+    tab_header(
+      title = "Ställningen i Vårcupen 2024", 
+      subtitle = paste0("Efter den ", 
+                        current_comp_no, ":a deltävlingen"))
+}
 
