@@ -1,7 +1,7 @@
 ---
 title: "Rapport från första deltvävlingen"
 author: "Andrés"
-date: "2024-01-26"
+date: 2024-01-26
 description: "Utmaningen är större än någonsin när startskottet för Vårcupen 2024 brann av i torsdags."
 image: "grigori-SAF-pokalen-2020_1.jpg"
 execute: 

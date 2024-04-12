@@ -1,6 +1,7 @@
 ---
 title: "Snart börjar vi"
 author: "Andrés"
+date: 2024-01-10
 image: "arno-smit-sKJ7zSylUao-unsplash.jpg"
 ---
 

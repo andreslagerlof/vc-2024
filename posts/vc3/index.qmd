@@ -1,0 +1,32 @@
+---
+title: "Rapport från deltävling 3"
+author: "Andrés"
+date: 2024-04-12
+image: "ernest_2.jpeg"
+description: "Inte konstigt att det var högre tryck än någonsin från fäktarna, som kalasat på påskägg, som nu ville visa vad dom gick för."
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r}
+#| label: setup
+
+# Load here package
+library(here)
+
+# Load all libraries
+source(here("libraries_load.R"))
+
+# Load custom functions
+source(here("assets", "functions", "custom_functions.R"))
+
+# Read data
+vc <- read.csv(here("assets", "data", "vc_resultat_2024.csv"))
+
+# Define current competition
+current_comp_name <- "vc_3"
+
+# Define current comp no
+current_comp_no <- parse_number(current_comp_name)
+```

@@ -1,7 +1,7 @@
 ---
 title: "Rapport från deltävling 2"
 author: "Andrés"
-date: "2024-02-18"
+date: 2024-02-18
 description: "Utmaningen var större än någonsin när expeditionen mot stratosfären i form av den andra deltävlingen i 2024 års Vårcup lyfte från jorden."
 image: "grig_astro2.jpg"
 execute: 
