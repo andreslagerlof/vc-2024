@@ -32,15 +32,33 @@ current_comp_name <- "vc_3"
 current_comp_no <- parse_number(current_comp_name)
 ```
 
+```{r}
+#| label: prep_data
+
+# Read results data
+vc <- read.csv(here("assets", 
+                    "data", 
+                    "vc_resultat_2024.csv"))
+dat <- vc |> 
+  to_long_format() |> 
+  calc_points()
+```
+
+![Ernest, den stora hjälten i Vårcupens 3e deltävling!](Ernest.jpeg)
+
 Den som i tisdags stack ner huvudet i fäktsalen kunde se inte mindre än 28 fäktare ivriga fäktare, som nästan liknade en koloni äggstinna påskharar, förbereda sig inför något som dom väntat på länge – Vårcupens 3e deltävling!
 
 I vimlet av fäktarna kunde publiken med förtjusning se att Gustav gjorde en efterlängtad come-back. Likaså kunde alla glädjas åt att tävlingens rykte lockat fäktare från när och fjärran. Denna gång hade Isaac rest hela vägen från Australien för att kunna stoltsera med att ha deltagit i den mytomspunna tävlingen.
 
 ## James, en av kvällens hjältar
 
-Redan från start kunde alla, med glädje konstatera, att vårvindarna fört med sig nyheter till tävlingen. Denna gång i form av James Barden och hans IT-trolleri. Understödda av detta förträffliga verktyg förpassades all väntan till ett minne blott.
+Som ni vet har tävlingsledningen för våra klubbtävlingar som Vårcupen och KM, sedan länge varit föremål för skarp och välbefogad kritik avseende den undermåliga rapporteringen och det tekniska stödet för tävlingen.
+
+Därför var det med stor tillfredsställelse att denna gång kunna konstatera, att vårvindarna fört med sig nyheter till tävlingen. Denna gång i form av James Barden och hans IT-trolleri. Understödda James och dennes förträffliga verktyg förpassades all väntan till ett minne blott.
 
 Snabbt som ögat kunde de upptrissade deltagarna delas in i fyra pouler och direkt göra upp om världsherravälde. Klicka [**här**](https://www.fencingtimelive.com/tournaments/eventSchedule/1775F0C1B0C64C2DA5F6BB0820BD4C01#today) för att komma åt hela resultatrapporten.
+
+I fråga om tävlingsrapportering kan vi dessvärre inte komma med några goda nyheter utan ni kommer även framöver tvingas genomlida rapporter av samma typ som tidigare. Detta sorgliga tillstånd kommer att kvarstå fram till dess en ny och mer kompetent tävlingsledning tar över.
 
 ## Poulomgången
 
@@ -92,6 +110,30 @@ Nu var tiden äntligen inne för att utse kvällens mästare. Vedran, som fått 
 
 Låtom oss nu titta till vad detta innebär i tabellform. I vanlig ordning börjar vi med sammanställningen från deltävling 3
 
+```{r}
+#| label: create_current_comp_table
+
+dat |> current_comp_table()
+```
+
 Därefter tar vi en koll på damtabellens utseende
 
+```{r}
+#| label: ladies_table
+
+ladies_table_current(dat)
+```
+
 Och nu är tiden mogen för att betrakta den totala sammanställningen
+
+```{r}
+#| label: totals_table
+
+totals_table(dat)
+```
+
+Som ni ser har Grigori fortsatt ett övertag men han jagas av Vedran och Elwin. Segern gjorde också att Ernest tog ett ordentligt skutt uppåt i tabellen.
+
+Nu återstår endast en sak att göra: träna hänsynslöst hårt för att nästa gång komma ännu starkare och ännu bättre förberedda till den 4:e deltävlingen!
+
+Lycka till alla!
