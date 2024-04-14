@@ -3,11 +3,11 @@ title: "Rapport från deltävling 3"
 author: "Andrés"
 date: 2024-04-12
 image: "ernest_2.jpeg"
-description: "Trycket var högre än någonsin alla fäktare som, efter att ha kalasat på påskägg, nu ville visa vad dom gick för."
+description: "Trycket var högre än någonsin från alla fäktare som, efter att ha kalasat på påskägg, nu ville visa vad dom gick för."
 execute: 
   echo: false
   warning: false
-draft: true
+draft: false
 ---
 
 ```{r}
@@ -46,17 +46,17 @@ dat <- vc |>
 
 ![Ernest, den stora hjälten i Vårcupens 3e deltävling!](Ernest.jpeg)
 
-Den som i tisdags stack ner huvudet i fäktsalen kunde se inte mindre än 28 fäktare ivriga fäktare, som nästan liknade en koloni äggstinna påskharar, förbereda sig inför något som dom väntat på länge – Vårcupens 3e deltävling!
+Den som i tisdags stack ner huvudet i fäktsalen kunde se inte mindre än 28 ivriga fäktare, som likt en koloni äggstinna påskharar, förberedde sig inför något dom länge väntat på – Vårcupens 3e deltävling!
 
-I vimlet av fäktarna kunde publiken med förtjusning se att Gustav gjorde en efterlängtad come-back. Likaså kunde alla glädjas åt att tävlingens rykte lockat fäktare från när och fjärran. Denna gång hade Isaac rest hela vägen från Australien för att kunna stoltsera med att ha deltagit i den mytomspunna tävlingen.
+I vimlet av fäktarna kunde publiken med förtjusning se att Gustav gjorde en efterlängtad come back. Likaså bevisades att tävlingens rykte lockat fäktare från när och fjärran. Ett tydligt exempel på detta är Isaac som rest hela vägen från Australien för att få delta i den mytomspunna tävlingen.
 
-## James, en av kvällens hjältar
+## James, en av kvällens största hjältar
 
-Som ni vet har tävlingsledningen för våra klubbtävlingar som Vårcupen och KM, sedan länge varit föremål för skarp och välbefogad kritik avseende den undermåliga rapporteringen och det tekniska stödet för tävlingen.
+Som bekant har tävlingsledningen för Vårcupen och KM sedan länge varit föremål för skarp och välbefogad kritik avseende den undermåliga rapporteringen och brist på modernt tekniskt stödet för tävlingen.
 
-Därför var det med stor tillfredsställelse att denna gång kunna konstatera, att vårvindarna fört med sig nyheter till tävlingen. Denna gång i form av James Barden och hans IT-trolleri. Understödda James och dennes förträffliga verktyg förpassades all väntan till ett minne blott.
+Glädjande nog kunde deltagarna denna gång kunna konstatera att vårvindarna fört med sig nyheter. Denna gång i form av James Barden och hans IT-trolleri. Understödda James och dennes förträffliga digiala verktyg förpassades all väntan till ett minne blott.
 
-Snabbt som ögat kunde de upptrissade deltagarna delas in i fyra pouler och direkt göra upp om världsherravälde. Klicka [**här**](https://www.fencingtimelive.com/tournaments/eventSchedule/1775F0C1B0C64C2DA5F6BB0820BD4C01#today) för att komma åt hela resultatrapporten.
+Snabbt som ögat kunde de upptrissade deltagarna delas in i fyra pouler och direkt göra upp om världsherravälde. Klicka [**här**](https://www.fencingtimelive.com/tournaments/eventSchedule/1775F0C1B0C64C2DA5F6BB0820BD4C01#today) för att komma åt alla matchresultat.
 
 I fråga om tävlingsrapportering kan vi dessvärre inte komma med några goda nyheter utan ni kommer även framöver tvingas genomlida rapporter av samma typ som tidigare. Detta sorgliga tillstånd kommer att kvarstå fram till dess en ny och mer kompetent tävlingsledning tar över.
 
@@ -64,13 +64,13 @@ I fråga om tävlingsrapportering kan vi dessvärre inte komma med några goda n
 
 [![Poulerna (klicka på bilden för att se alla pouler)](pouler.png)](https://www.fencingtimelive.com/pools/scores/61F145D17AB14B10B94666903E506343/ECA49DFBE16A45CB9414096E0F7BA11B)
 
-Den hittills så dominanta Grigori fortsatte att visa var skåpet skulle stå och gjorde rent hus i den poule 1. Bakom honom var det Holger som klämde sig in före Gustaf. 
+De första deltävlingarna har helt dominants av Grigori och på samma vis fortsatte fortsatte inledningen av denna tävling. Utan tvekan gjorde Grigori rent hus i den poule 1. Bakom honom var det Holger som klämde sig in före Gustaf. 
 
-I poule 2 var det Vedran som fick bäst start, med undantag för förlust mot Janne hade han idel segrar. Jannes möjligheter att bli poulesegrare grusades av ingen annan än den tidigare nämnde James.
+I poule 2 var det Vedran som fick bäst start, med undantag för förlust mot Janne, hade han idel segrar. Jannes möjligheter att bli poulesegrare grusades av ingen annan än den tidigare nämnde James.
 
-Ernest var den fäktare som i poule 3 inte lät sig bevekas, utan lät knappt någon motståndare sätta någon stöt. I skuggan av Ernest var det de båda SM-guldmedaljörerna CH (guld i 60 årsklassen) och Ian (regerande svensk mästare) som fick göra upp om 2a platsen i poulen. Här fällde rutinen avgörandet till den äldre fäktarens fördel.
+Ernest i poule 3 inte lät sig bevekas, utan lät knappt någon motståndare sätta någon stöt. I skuggan av Ernest var det de båda SM-guldmedaljörerna CH (guld i 60 årsklassen) och Ian (regerande svensk mästare) som fick göra upp om 2a platsen i poulen. Här fällde rutinen avgörandet till den äldre fäktarens fördel.
 
-Som vanligt är Thomas en svår nöt att knäcka i Vårcupssammanhang och så även denna gång. Liksom Grigori och Ernest, gick Thomas från poulen utan att kännas vid någon förlust - starkt! Tor fick nöja sig med platsen efter Thomas.
+Som vanligt är Thomas en svår nöt att knäcka i Vårcupssammanhang och så även denna gång. Liksom Grigori och Ernest, gick Thomas från poulen utan att kännas vid någon förlust – starkt! Tor fick nöja sig med platsen efter Thomas.
 
 ## Direktelimineringen
 
@@ -96,9 +96,9 @@ I den undre halvan av tablån bjöd Johan, sin motståndare CH, på hårt motst�
 
 ## Semifinaler
 
-Många i publiken hade vid detta skedet av tävlingen börjat se framför sig att tidigare Vårcupsresultat skulle upprepas, med Grigori som segrare. Vedran ville dock annat. Stärkt  av att sin seger mot Elwin, fick han förnyade krafter och kunde med hjälp av dessa slutligen betvinga självaste Grigori.
+Många i publiken hade vid detta skedet av tävlingen börjat se framför sig att tidigare Vårcupsresultat skulle upprepas, med Grigori som segrare. Vedran ville dock annat. Stärkt av att sin seger mot Elwin, fick han förnyade krafter och kunde med hjälp av dessa slutligen betvinga självaste Grigori.
 
-CH stretade tappert vidare, men mot Ernest räckte dessvärre inte hans kunnande hela vägen. Således var det Ernest och Vedran som skulle göra upp om slutsegerns.
+CH stretade tappert vidare, men mot Ernest förmådde han inte mäta sig. Således var det Ernest och Vedran som skulle göra upp om slutsegerns.
 
 ## Slaget om pallplatserna
 
