@@ -75,6 +75,7 @@ ladies_table_current <- function(df) {
     relocate(sum_points, .after = last_col()) |> 
     # Add ranking
     mutate(rank = min_rank(desc(sum_points))) |> 
+    arrange(rank) |> 
     relocate(rank, everything()) |> 
     rename(
       "#" = rank,
