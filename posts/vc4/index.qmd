@@ -1,0 +1,129 @@
+---
+title: "Rapport från deltävling 4"
+author: "Andrés"
+date: 2024-04-27
+description: "Nu drar det ihop sig! Körsbärsblommorna skvallrar om att våren är här och samtidigt är Vårcupen inne på slutvarvet."
+image: "grigori_seger.jpeg"
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r}
+#| label: setup
+
+# Load here package
+library(here)
+
+# Load all libraries
+source(here("libraries_load.R"))
+
+# Load custom functions
+source(here("assets", "functions", "custom_functions.R"))
+
+# Read data
+vc <- read.csv(here("assets", "data", "vc_resultat_2024.csv"))
+
+# Define current competition
+current_comp_name <- "vc_4"
+
+# Define current comp no
+current_comp_no <- parse_number(current_comp_name)
+```
+
+```{r}
+#| label: prep_data
+
+# Read results data
+vc <- read.csv(here("assets", 
+                    "data", 
+                    "vc_resultat_2024.csv"))
+dat <- vc |> 
+  to_long_format() |> 
+  calc_points()
+```
+
+![Segraren Grigori gratuleras av Natali](grigori.jpeg)
+
+Även om vårvädret har spelat oss spratt är det ingen tvekan om att våren är i full blom, i alla fall i våra sinnen, när de friska vårvindarna sköljer över fäktvärlden med Vårcupen som ett epicentrum.
+
+Denna gång var det 26 av fäktuniversums mest framstående exemplar som gick lös på varandra i förhoppning om att skriva in sig i historien. Det gick ett sus i publiken när de, till stor förtjusning, kunde se att Elvira skänkte stjärnglans till tävlingen och att Christopher och Linus återigen gladde oss med sin närvaro.
+
+Som vanligt bör ni klicka [här](https://www.fencingtimelive.com/pools/scores/365ACA8DE76C48D6B094E4412BF087A4/0833B9AFBB0846A6B1BB4EF457F328FF) för att se en mer detaljerad sammanställning.
+
+## Kamp i poulerna
+
+I poule 1 kryllade det av stjärnor, eller vad säger ni om namn som Grigori, Elvira och Holger? Kampen blev följaktligen stenhård. Grigori gick starkt men kunde till sist inte hålla tillbaka den storfäktande Tor, som gick ut som segrare i poulen utan att kännas vid någon förlust.
+
+Även den andra poulen tvingade fäktarna till det yttersta. Här var det slutligen Christopher som med hjälp av bättre stötindex kunde se sig som segrare före Vedran.
+
+[![Poule 1 och 2. OBS! Klicka på bilden så kommer ni till en detaljerad resultatlista.](poule-1-2.png)](https://www.fencingtimelive.com/pools/scores/365ACA8DE76C48D6B094E4412BF087A4/0833B9AFBB0846A6B1BB4EF457F328FF)
+
+Vi minns alla CHs sensationella tredjeplats förra gången och han själv tog sig an uppgiften med samma iver som tidigre. Med idel segrar i poule 3 markerade CH att han hade siktet inställt på ytterligare ett stordåd. Thomas 4 segrar måste också noteras.
+
+I den fjärde och sista poulen var det Linus som briljerade med segrar i varje match. Bakom honom gjorde Elwin en stark insats.
+
+[![Poule 3 och 4. OBS! Klicka på bilden!](poule-3-4.png)](https://www.fencingtimelive.com/pools/scores/365ACA8DE76C48D6B094E4412BF087A4/0833B9AFBB0846A6B1BB4EF457F328FF)
+
+## Direktelimineringen
+
+![Taktisk förberedelse inför direktelimineringen](prepp.jpeg)
+
+Holger och Ehsan öppnade upp direkteliminationen. Här visade sig Ehsan vara för svår denna gång och fick som belöning se fram mot ett möte med den förstarankande Linus. I den matchen gav Linus inte efter utan rullade vidare in mot kvartsfinal.
+
+Peter fick den otacksamma uppgiften att försöka ta sig förbi Ernest men efter en tapper insats fick han se sig besegrad. I nästa match var det därför Thomas, som efter att ha besegrat nykomlingen Martha, som fick pröva sin lycka mot Ernest. Det mötet slutade dock med att Ernest beredde sig en plats i kvartsfinalen.
+
+Leoplod spelade ut hela sitt register mot Linnea, men det hjälpte föga. Christopher, som i kraft av sin fina poulefäktning fick stå över första matchen, var utvilad och redo att ta sig an Linnea i nästföljande match. Resultatet av den drabbningen var att Christopher kvalificerade sig till kvartsfinalen.
+
+I matchen mellan Francesco och Elvira var utgången länge oviss, dock var det till sist Franchesco som fick se fram emot att mäta sig mot Elwin om att ta sig till kvartsfinal. Den matchen utvecklade sig till en nagelbitare som Elwin, med blott en stöt till godo, tog hem.
+
+Även CH kvalificerade sig till kvartsinfal, men bara efter en bitter kamp mot Erik där CH undslapp med knappa 10-9.
+
+Gritori var nästa kvartsfinalist. Hans väg dit gick via Teodor, som i sin tidigare match hade ställt till med en av kvällens stora sentationer genom att lyckas få den mäktige Ian på knä.
+
+Vedran, som förstod att Vårcupen skulle vara en utmärkt förberedelse inför det stundande europakvalet till OS, var näst på tur att kvalificera sig till kvartsfinalen. Denna gång på Jannes bekostnad.
+
+Slutligen kunde vi notera en kvällens stora snackisar, gestaltad av Louise. Hon blev nämligen den sista kvartsfinalisten efter att klivit förbi både Alexander och sedan Tor.
+
+## Kvartsfinaler och vidare
+
+Vid det här laget var den månghövdade publiken utom sig av upprymdhet när dom storögt blickade mot den stjärnspäckade kvartsfinaltablån. Först ut var Vedran, som genast fick besvär med come-back-sensationen Louise. Louise har ju varit tvingad till vila på grund av en skada, men har nu fått grönt ljus att fäkta. Med stor möda lyckades Vedran till sist ta sig vidare till en semifinal där Grigoris skulle bli hans nästa motståndare. Grigori hade nämligen sakta, men bestämt förpassat CH ur tävlingen.
+
+Kampen blev också hård i uppgörelsen mellan Elwin och Christopher. Här var det emellertid den sistnämnde som fick förmånen att ta sig an Linus, som på sin sida hade satt stopp för Ernest.
+
+![Christopher imponerar med sin smidighet](christopher.jpeg)
+
+Därmed var det Linus och Christopher i ena semifinalen och Grigori och Vedran i den andra. De båda välfäktade semifinalerna ledde sedermera fram till kvällens höjdpunt – en final mellan Linus och Grigori! Linus som denna kväll sett näst intill oövervinnlig ut, fick nu fullt upp. När matchen till sist var över, kunde vi dock konstatera att ordningen, sedd ur Grigoris perspektiv, nu återgått till det normala med Grigori som Vårcupens stjärna.
+
+Vedran fick nöja sig med 3:e platsen som han rövat åt sig i sin uppgörelse med Christopher.
+
+[![Kvartsfinalstablå](t-8.png)](https://www.fencingtimelive.com/tableaus/scores/365ACA8DE76C48D6B094E4412BF087A4/77DC44247DAB4CCB9B15B3BB83FC87FB)
+
+Så här blev den fullständiga resultatlistan
+
+```{r}
+#| label: create_current_comp_table  
+dat |> current_comp_table()
+```
+
+Därmed var en sagolik fäktkväll till ända. Låt oss nu botanisera i tabellerna!
+
+## Sammanställningar
+
+På damsidan kan vi nu konstatera att Linnea behåller ledningen men hotas av Louise och därefter Neolie.
+
+```{r}
+#| label: ladies_table
+
+ladies_table_current(dat)
+```
+
+Och totalt är det Grigori som har tagit ett stenhårt grepp om ledningen och övriga fäktare är förvisade till att göra upp om platserna och nedåt. Bland utmanarna till pallplatserna under förtaplatsen är det Vedran som har placerats sig väl, men både Elwin och Linus kommer nog ha sitt att säga om den saken.
+
+```{r}
+#| label: totals_table
+
+totals_table(dat)
+```
+
+Nu har sannerligen våren lyst upp både naturen och den här mytomspunna tävling. Därför återstår endast en sak att göra – träna fanatiskt hårt som förberedelse för det rafflande slutet!
