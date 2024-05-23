@@ -1,0 +1,10 @@
+---
+title: "Rapport från Varcupens 5:e deltävling"
+author: "Andrés"
+date: 2024-05-23
+description: "Vårcupen 2024 är över och nya segrare är korade! En fantastisk säsång som vi sent kommer att glömma."
+image: ".jpeg"
+execute: 
+  echo: false
+  warning: false
+---
