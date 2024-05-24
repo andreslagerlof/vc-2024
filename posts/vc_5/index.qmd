@@ -9,9 +9,17 @@ execute:
   warning: false
 ---
 
-Nu är våren äntligen här i dess mest praktfulla form med obeskrivlig blomsterprakt, grönt gräs, kvittrande fåglar och surrande myggor! Ytterligare ett säkert vårtecken är att FFFs lokal fortfarande skakar efter tisdagens praktfulla avslutande deltävling av Vårcupen 2024.
+Nu är våren äntligen här i dess mest förtrollande form med obeskrivlig blomsterprakt, grönt gräs, kvittrande fåglar och surrande myggor! Ytterligare ett säkert vårtecken är att FFFs lokal fortfarande skakar efter tisdagens avslutande deltävling av Vårcupen 2024.
 
 När den stränge Tor myndigt förkunnade att anmälningsböckerna förseglats för nya deltagare kunde man räkna in hela 26 tappra och förväntansfulla deltagare. Nu var sanningens ögonblick inne!
+
+::: callout-note
+## Stort tack till James!
+
+Återigen måste James hyllas för sin insats med att ordna digital tävlingsrapportering. Ni kan följa alla matcher (och även gamla resultat) [**här**](https://www.fencingtimelive.com/tableaus/scores/524C5549A8A847EEB58434AAEAE78996/F83AFA61417E410D9A5FC1F52599CB20).
+:::
+
+![Tävlingsdebutanten Calle tar emot listiga taktikska råd från Mathias](taktiksnack.jpeg)
 
 ## Poulomgångarna
 
@@ -25,6 +33,42 @@ I poule 3 var Holger överlägsen. I presskonferensen innan tävlingen hade han 
 
 [![Poulerna 3 och 4](poule3-4.jpg){fig-alt="poulerna 3 och 4"}](https://www.fencingtimelive.com/pools/scores/524C5549A8A847EEB58434AAEAE78996/39B1CA67E6824B2D917C18D345497C93)
 
-I den fjärde och avslutande poulen var det de gamla ärrade krigarna Janne och Tor som tillsammans gick ut som poulsegrare. I denna poule kunde publiken också till sin förtjusning notera att Sophie gjorde sitt första inhopp i tälingen.
+I den fjärde och avslutande poulen var det de gamla ärrade krigarna Janne och Tor som tillsammans gick ut som poulsegrare. Här kunde publiken också till sin förtjusning notera att Sophie gjorde sitt första inhopp i tälingen.
 
 ## Direktelimineringen
+
+Efter en kort rast var det dags att koppla in igen för att göra upp i tävlingens nästa skede - direkteliminationen!
+
+[![Översta fjärdedelen](tabla1.jpg)](https://www.fencingtimelive.com/tableaus/scores/524C5549A8A847EEB58434AAEAE78996/F83AFA61417E410D9A5FC1F52599CB20)
+
+I den översta fjärdedelen var det den 1a rankade Grigori som stormade fram hela vägen till semifinal på bekostnad av Leopold och därefter Janne. Den sistnämnde hade kvalificerat sig genom att betvinga såväl James som Isaac.
+
+[![Den andra fjärdedelen](tabla2.jpg)](https://www.fencingtimelive.com/tableaus/scores/524C5549A8A847EEB58434AAEAE78996/F83AFA61417E410D9A5FC1F52599CB20)
+
+I den andra fjärdedelen var det Ian som och Georg som båda kämpade sig till kvartsfinalplatser. Ian hade, på ett lömskt vis, hittills hållit sig i det fördolda men nu släppte han på tömmarna. Det fick både Kurt och den högt rankade Lars bittert erfara. Georg kvalificerade sig genom att mota ut Thomas ur tävlingen. Men väl i kvartsfinalen var det den regerande svenska mästaren Ian, som utgick som segrare.
+
+[![Den tredje fjärdedelen](tabla3.jpg)](https://www.fencingtimelive.com/tableaus/scores/524C5549A8A847EEB58434AAEAE78996/F83AFA61417E410D9A5FC1F52599CB20)
+
+Tittar vi vidare ytterligare i tablån kan vi konstatera att Elwin utan ansträngning seglade visdare mot kvartsfinal.
+
+![CH gör sitt bästa för att hålla jämna steg med Elwin](elwin_ch.jpeg)
+
+Dit tog sig även Francesco efter att, med hjärtat i halsgropen, lyckat ta sig förbi Linnea. I matchen om avancemang till semifinal var det återigen Elwin som utgick som segrare.
+
+[![Den sista fjärdedelen](tabla4.jpg)](https://www.fencingtimelive.com/tableaus/scores/524C5549A8A847EEB58434AAEAE78996/F83AFA61417E410D9A5FC1F52599CB20)
+
+Även in den sista fjärdedelen var det de två högst rankade fäktarna som kvalificerade sig till kvartsfinalen. Tor efter att ha betvingat såväl Marco som Lucas. Och sensationsmannen Holger genom seger mot Eden. Här i kvartsfinal tog dock Holgers segertåg slut när han fick se sig besegrad av en resolut Tor.
+
+## Semifinaler
+
+![Semifinaler](semi.jpg)
+
+Semifinalerna var lika hårda som man kan förvänta sig av en tävlig av den här kalibern. Först ut var det Ian som försökte sig på den tuffaste av uppgifter – att betvinga Grigori. Det blev, som väntat, en hård kamp men inte heller denna gång ville Grigori ge med sig.
+
+I den andra semifinalen var det Tors tur att ta sig an den hittills nästan omöjlige Elwin. Den här gången räckte Tors krafter inte hela vägen utan Elwin dansade på sitt karaktäristiska vis hem segern.
+
+Slutligen var det därför, i en giganternas kamp mellan Elwin och Grigori, som striden om seger skulle stå. Elwin tog för sig väl och pressade Grigori. Men när Grigori väl la in överväxeln försvann segern bortom den tappra Elwins räckhåll.
+
+Åt Grigori fanns inte mycket att göra och han stod återigen som den slutliga segraren, någon som han haft för vana att göra under hela våren. Mycket imponerande!
+
+## Tabellerna
